@@ -337,14 +337,6 @@ class ODE(object):
 
 
 
-def eq_1(x, y, y_dot): #this is basically to say y' = y'
-    return y_dot
-
-def eq_2(x, y, y_dot):
-    return (-0.5*y + 2.5*y_dot)
-
-ODE(3, 10, 100, [6, -1]).CoupledRK4(eq_1, eq_2)
-
 
 
 
