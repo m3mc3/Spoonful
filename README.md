@@ -4,7 +4,7 @@ Spoonful is a Python package meant to handle fairly common tasks encounted in ma
 
 ## Installation and Upgrading
 
-I'm still trying to figure that one out, I'll need a second lol.
+For installations and upgrading, refer to the package as "Spoonful"
 
 ## Usage
 
