@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='spoonful',                        # should match the package folder
+    name='Spoonful',                        # should match the package folder
     packages=setuptools.find_packages(),                          # should match the package folder
     version='0.0.1',                                # important for updates
     license='MIT',                                  # should match your chosen license
