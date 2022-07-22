@@ -5,11 +5,11 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='spoonful_project',                        # should match the package folder
-    packages=['spoonful'],                          # should match the package folder
+    name='spoonful',                        # should match the package folder
+    packages=setuptools.find_packages(),                          # should match the package folder
     version='0.0.1',                                # important for updates
     license='MIT',                                  # should match your chosen license
-    description='Testing installation of Package',
+    description='Basic Tools in Numerical Methods',
     long_description=long_description,              # loads your README.md
     long_description_content_type="text/markdown",  # README.md is of type 'markdown'
     author='Nikhil Murali',
@@ -20,7 +20,7 @@ setuptools.setup(
 #         "Bug Tracker": "https://github.com/mike-huls/toolbox_public/issues"
 #     },
 # =============================================================================
-    install_requires=['matplotlib.pyplot','numpy','time'],                  # list all packages that your package uses
+    install_requires=['matplotlib','numpy','time'],                  # list all packages that your package uses
     keywords=["pypi", "spoonful", "scientific"],    #descriptive meta-data
     classifiers=[                                   # https://pypi.org/classifiers
         'Development Status :: 3 - Alpha',
@@ -32,6 +32,4 @@ setuptools.setup(
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
     ],
-    
-    download_url="https://github.com/mike-huls/toolbox_public/archive/refs/tags/0.0.3.tar.gz",
 )
