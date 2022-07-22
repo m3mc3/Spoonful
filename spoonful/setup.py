@@ -20,7 +20,7 @@ setuptools.setup(
 #         "Bug Tracker": "https://github.com/mike-huls/toolbox_public/issues"
 #     },
 # =============================================================================
-    install_requires=['matplotlib','numpy','time'],                  # list all packages that your package uses
+    install_requires=['matplotlib','numpy'],                  # list all packages that your package uses
     keywords=["pypi", "spoonful", "scientific"],    #descriptive meta-data
     classifiers=[                                   # https://pypi.org/classifiers
         'Development Status :: 3 - Alpha',
